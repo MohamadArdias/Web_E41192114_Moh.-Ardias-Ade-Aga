@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 
 });
-Route::resource('user','App\Http\Controllers\ManagementUserController');
+// Route::resource('user','App\Http\Controllers\ManagementUserController');
 //Route::get('user', [ManagementUserController::class, 'index']);
 //Route::get('user','App\Http\Controllers\ManagementUserController@index');
+
+Route::get('/home',function(){
+    return view('frontend/layouts/home');
+});
+Route::get('/dashboard',function(){
+    return view('backend/layouts/dashboard');
+});
+
