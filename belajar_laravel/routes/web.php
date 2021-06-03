@@ -54,4 +54,4 @@ Route::middleware(['auth'])->group(function () {
 //     Route::resource('pengalaman_kerja', 'PengalamanKerjaController');
 // });
 
-Route::get('pengalaman_kerja', 'PengalamanKerjaController');
+// Route::get('pengalaman_kerja', 'PengalamanKerjaController');
